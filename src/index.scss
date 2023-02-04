@@ -1,13 +1,14 @@
 * {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e6e8ec;
+  background-color: #5c7fb0;
 }
 
 .App {
@@ -19,7 +20,7 @@ body {
 }
 
 .open-modal-btn {
-  background: #fff;
+  background: #ffffff;
   padding: 18px 25px;
   border-radius: 20px;
   font-weight: 500;
@@ -53,7 +54,7 @@ body {
 }
 
 .modal {
-  background-color: #fff;
+  background-color: #b1b0b0;
   width: 70%;
   max-width: 500px;
   max-height: 300px;
