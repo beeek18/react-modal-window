@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './index.scss';
 
 const Modal = ({ open, setOpen, children }) => (
@@ -20,7 +21,7 @@ function AppWithProps() {
     <div className="App">
       <button onClick={() => setOpen(true)} className="open-modal-btn">Way of the ninja</button>
       <Modal open={open} setOpen={setOpen} >
-        <img src="https://media.giphy.com/media/g4N6wTrf1v6yQ/giphy.gif" />
+        <img src="https://media.giphy.com/media/g4N6wTrf1v6yQ/giphy.gif" alt='Naruto' />
         <h3>Naruto Uzumaki - 7 Hokage</h3>
       </Modal >
     </div>
