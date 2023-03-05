@@ -5,3 +5,4 @@
 <li>Animated modal window
 <li>Pass content to the modal window (children)
 <li>Pass props
+<li>Mobile adaptation
